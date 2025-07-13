@@ -1,0 +1,56 @@
+@import "tailwindcss";    
+
+
+
+*{
+  font-family: Outfit;
+}
+ 
+:root {
+  --color-lightHover: #fcf4ff;
+  --color-darkHover: #2a004a;
+  --color-darkTheme: #11001f;
+  --font-ovo: 'Ovo', serif;
+  --font-outfit: 'Outfit', sans-serif;
+  --box-shadow-black: 4px 4px 0px #000;
+  --box-shadow-white: 4px 4px 0px #fff;
+}
+
+.box-shadow-white:hover {
+  box-shadow: var(--box-shadow-white);
+}
+
+
+.box-shadow-black:hover {
+  box-shadow: var(--box-shadow-black);
+}
+
+.font-Ovo {
+  font-family: var(--font-ovo);
+}
+
+.font-Outfit {
+  font-family: var(--font-outfit);
+}
+
+.grid-cols-auto {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.bg-lightHover:hover {
+  background-color: var(--color-lightHover);
+}
+
+.dark {
+  background-color: var(--color-darkTheme);
+  color: #ffffff;
+
+}
+
+.bg-darkHover:hover , .bg-darkThemeHover{
+  background-color: var(--color-darkHover);
+}
+
+.bg-darkHover-30 {
+  background-color: var(--color-darkHover)/30;
+}

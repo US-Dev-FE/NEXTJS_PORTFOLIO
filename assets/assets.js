@@ -85,24 +85,29 @@ export const assets = {
 export const workData = [
     {
         title: 'Enterprise App ',
-        description: 'Web App',
-        bgImage: '/work-1.png',
+        description: 'Infosys LEAP',
+        bgImage: '/dashboard.png',
+        link: 'https://www.infosys.com/services/application-development-maintenance/service-offerings/application-management-platform.html'
     },
     {
         title: 'Fintech / Banking',
-        description: 'Web App',
-        bgImage: '/work-2.png',
+        description: 'AU Bank',
+        bgImage: '/bank.png',
+        link: 'https://www.aubank.in/'
     },
     {
         title: 'E-Commerce',
-        description: 'Web App',
-        bgImage: '/work-3.png',
+        description: 'Asian Paints',
+        bgImage: '/asian.png',
+        link: 'https://www.beautifulhomes.asianpaints.com/'
     },
     {
         title: 'Logistics / Supply Chain',
-        description: 'Web App',
-        bgImage: '/work-4.png',
+        description: 'iTrade',
+        bgImage: '/freight.png',
+        link: 'https://www.itradenetwork.com/solutions/transportation-management/freight'
     },
+  
 ]
 
 export const serviceData = [

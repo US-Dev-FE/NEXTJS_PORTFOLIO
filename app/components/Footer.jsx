@@ -18,7 +18,7 @@ const Footer = ({isDarkMode}) => {
         <p> © 2025 Utkarsh Sharma. All rights reserved</p>
         <ul className='flex items-center gap-10 justify-center mt-4 sm:mt-0'>
             <li>
-                <a target='_blank' href="">GitHub</a>
+                <a target='_blank' href="https://github.com/US-Dev-FE">GitHub</a>
             </li>
             <li>
                 <a target='_blank' href="https://www.linkedin.com/in/utkarsh-sharma-a73684137">Linkedin</a>

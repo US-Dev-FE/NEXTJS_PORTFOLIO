@@ -5,11 +5,11 @@ import { motion } from "motion/react"
 
 const Header = ({ isDarkMode }) => {
   return (
-    <div className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4'>
+    <div className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center relative top-[6em] gap-4'>
       <motion.div initial={{ scale: 0 }}
         whileInView={{ scale: 1 }}
         transition={{ duration: 0.8, type: 'spring', stiffness: 100 }}>
-        <Image src={assets.profile} alt='' className='rounded-full w-32 mt-[5em]' />
+        <Image src={assets.profile} alt='' className='rounded-full w-32' />
       </motion.div>
       <motion.h3
         initial={{ y: -20, opacity: 0 }}
